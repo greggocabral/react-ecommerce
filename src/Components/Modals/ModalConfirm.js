@@ -17,7 +17,7 @@ class  ModalConfirm extends React.Component{
         return (
 
             <Modal show={this.props.showModal} onHide={this.close}>
-                <Modal.Header closeButton>
+                <Modal.Header>
                     <Modal.Title>{this.props.title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
