@@ -38,10 +38,10 @@ class App extends Component {
                 <Grid fluid className="show-grid">
                     <Row className="customHeader">
                         <Col xs={2} sm={1}>
-                           <h5><Image src="./img/aerolab-logo.svg"   /></h5>
+                           <h5><Image src="./img/aerolab-logo.svg"/></h5>
                         </Col>
                         <Col xs={10} >
-                            <h3 className='customTextRight'>  {this.state.loading? <PulseLoader color={'#333333'} loading="true"/> : this.state.user.name +' | '+ this.state.user.points + ' points' }</h3>
+                            <h3 className='customTextRight'>  {this.state.loading? '' : this.state.user.name +' | '+ this.state.user.points + ' points' }</h3>
                         </Col>
                     </Row>
                 </Grid>
